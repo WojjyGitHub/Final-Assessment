@@ -1,5 +1,3 @@
-
-
 body {
     font-family: 'GFS Neohellenic', sans-serif;
     margin: 0;
@@ -341,7 +339,7 @@ footer {
     .about-title {
         bottom: 0;
     }
-    .try {
+    .outside-color {
         padding: 0;
     }
 }
