@@ -7,12 +7,12 @@ body {
     
 }
 
-.try {
+.outside-color {
     background-image: url(BackgroundImg.png);
     padding: 25px;
 }
 
-.try2 {
+.inside-color {
     background-color: white;
 }
 
@@ -188,20 +188,18 @@ h1 {
     grid-area: artist-img;
     width: 100%;
     height: auto;
-    margin: 60px;
+    margin-left: 60px;
     align-self: center;
     position: relative;
     bottom: 4rem;
-    background-image: url(BackgroundImg.png);
     border-radius: 5px;
-    padding: 20px;
 }
 
 .about {
     grid-area: about;
     font-style: italic;
     font-size: 1.2rem;
-    padding: 0px 70px 80px 110px;
+    padding: 0px 70px 80px 80px;
     place-self: center;
     text-align: justify;
     margin-left: 30px;
@@ -334,12 +332,17 @@ footer {
         margin: 0;
         bottom: 0;
         margin: 0px 20px 20px 0px;
+        padding: 0;
     }
     .about {
         margin-left: 0;
+        padding: 0px 70px 80px 80px;
     }
     .about-title {
         bottom: 0;
+    }
+    .try {
+        padding: 0;
     }
 }
 
