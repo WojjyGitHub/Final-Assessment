@@ -372,7 +372,7 @@ footer {
         padding: 0px 60px 50px;
     }
     .contact-main-1 {
-        margin: 0px 0px 60px;
+        margin: 0px 0px 0px;
     }
     .ext p {
         text-align: center;
@@ -410,7 +410,7 @@ footer {
         justify-content: space-around;
     }
     h1 {
-        margin: 45px 0px 55px;
+        margin: 0px 0px 55px;
     }
 }
 
@@ -420,7 +420,7 @@ footer {
         padding: 0px 40px 100px;
     }
     .contact-main-1 {
-        margin: 0px 0px 40px;
+        margin: 0px 0px 0px;
     }
     .ext p {
         text-align: center;
@@ -433,9 +433,6 @@ footer {
 
 /* Slightly larger mobile */
 @media(max-width: 530px) {
-    .contact-main-1 {
-        margin: 0px 0px 40px;
-    }
     .ext {
         font-size: 2rem;
     }
