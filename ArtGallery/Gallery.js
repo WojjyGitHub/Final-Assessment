@@ -48,3 +48,15 @@ span.onclick = function() {
   modal.style.display = 'none';
   footerText.style.color = '#e1e0e0';
 }
+
+// Find the wrapper element
+const wrapper = document.querySelector('.wrapper');
+
+// Listen for clicks on the wrapper
+wrapper.addEventListener('click', function(event) {
+    // Check if the clicked element is not inside the sidebar
+    if (!event.target.closest('.sidebar') && sideBar.classList.contains('active')) {
+        // Close the sidebar by removing the 'active' class
+        sideBar.classList.remove('active');
+    }
+})
