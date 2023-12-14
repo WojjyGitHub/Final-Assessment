@@ -5,15 +5,6 @@ body {
     
 }
 
-.outside-color {
-    background-image: url(BackgroundImg.png);
-    padding: 25px;
-}
-
-.inside-color {
-    background-color: white;
-}
-
 nav {
     z-index: 2;
     position: fixed;
