@@ -17,7 +17,9 @@ const xIconBtn = document.querySelector('#x-icon')
 
 //2. Listen for users clicking the icon
 xIconBtn.addEventListener('click', function () {
-    //2a. Toggle the 'active' class on the sidebar
+    // 2a. Prevent the default behavior of the anchor link
+    event.preventDefault();
+    //2b. Toggle the 'active' class on the sidebar
     sideBar.classList.toggle('active')
 })
 
