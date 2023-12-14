@@ -2,6 +2,6 @@ Hi, this is a website that features a gallery of a watercolor artist named Heidi
 
 It by no means features the complete works, just a handful of selected images.
 
-
+https://wojjygithub.github.io/Final-Assessment/
 
 Feel free to browse the site and check out the links to her fb, instagram and external website.
