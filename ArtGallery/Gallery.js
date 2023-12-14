@@ -16,7 +16,7 @@ menuIconBtn.addEventListener('click', function () {
 const xIconBtn = document.querySelector('#x-icon')
 
 //2. Listen for users clicking the icon
-xIconBtn.addEventListener('click', function () {
+xIconBtn.addEventListener('click', function (event) {
     // 2a. Prevent the default behavior of the anchor link
     event.preventDefault();
     //2b. Toggle the 'active' class on the sidebar
