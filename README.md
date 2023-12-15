@@ -12,4 +12,5 @@ I created this site after completing a 12-week intensive front end web developme
 It is the first website that I have ever created and uses a combination on HTML, CSS and Javascript.
 It is an ongoing project to which I will add more features over time.
 I hope you enjoy browsing the site as much as I enjoy creating it.
+
 Thank you.
