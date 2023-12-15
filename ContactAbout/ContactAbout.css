@@ -464,7 +464,7 @@ footer {
         justify-content: space-between;
     }
     nav li:nth-child(2) {
-        margin-right: 0;
+        margin-right: 40px;
     }
     .artist-logo {
         position: relative;
@@ -472,10 +472,6 @@ footer {
     }
     .about {
         padding: 0px 20px 20px;
-    }
-    .m-icon {
-        position: relative;
-        left: 20px;
     }
     .artist-img {
         float: none;
