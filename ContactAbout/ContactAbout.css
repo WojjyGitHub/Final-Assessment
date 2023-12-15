@@ -458,13 +458,15 @@ footer {
     }
     .nav-heading {
         font-size: 1.3rem;
+        position: relative;
+        right: 20px;
     }
     nav ul {
         padding: 0;
         justify-content: space-between;
     }
     nav li:nth-child(2) {
-        margin-right: 40px;
+        margin-right: 0px;
     }
     .artist-logo {
         position: relative;
@@ -472,6 +474,9 @@ footer {
     }
     .about {
         padding: 0px 20px 20px;
+    }
+    .about-title {
+        text-align: justify;
     }
     .artist-img {
         float: none;
