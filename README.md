@@ -19,3 +19,4 @@ Thank you.
 - Added JS to close sidebar when user clicks on window
 - Fixed gallery and contact page where the heading and hamburger menu were not aligned
 - Justified sub-heading text in 470px mobile mode (contact page)
+- Centered heading in mobile mode (contact and gallery page)
