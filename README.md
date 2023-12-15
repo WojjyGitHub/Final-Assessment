@@ -1,4 +1,4 @@
-#Heidixe Fine Art
+# Heidixe Fine Art
 
 Hi, this is a website that features a gallery of a watercolor artist named Heidixe. 
 
