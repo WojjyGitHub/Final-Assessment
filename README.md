@@ -14,3 +14,7 @@ It is an ongoing project to which I will add more features over time.
 I hope you enjoy browsing the site as much as I enjoy creating it.
 
 Thank you.
+
+
+
+15/12/23: Added JS to close sidebar when user clicks on window
