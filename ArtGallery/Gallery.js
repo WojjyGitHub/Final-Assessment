@@ -23,6 +23,26 @@ xIconBtn.addEventListener('click', function (event) {
     sideBar.classList.toggle('active')
 })
 
+// Close sidebar when clicking outside navbar and sidebar
+document.addEventListener('click', function (event) {
+    const isClickInsideNavbar = event.target.closest('nav');
+    const isClickInsideSidebar = event.target.closest('.sidebar');
+
+    // If the click is not inside the navbar and sidebar, close the sidebar
+    if (!isClickInsideNavbar && !isClickInsideSidebar) {
+        sideBar.classList.remove('active');
+    }
+});
+
+// Prevent closing sidebar when clicking on links inside the sidebar
+document.querySelector('.sidebar').addEventListener('click', function (event) {
+    const isClickInsideLink = event.target.closest('a');
+    
+    // Prevent closing the sidebar if the click is inside a link
+    if (isClickInsideLink) {
+        event.stopPropagation();
+    }
+});
 
 //From W3Schools with some modification from me
 
@@ -31,15 +51,25 @@ const modalImg = document.querySelector('.modal-content');
 const captionText = document.querySelector('.caption');
 const galleryImg = document.querySelectorAll('.gallery img')
 
-// initiate a for loop starting with 0 and loop through galleryImg one at a time
+// Function to check if the sidebar is active
+function isSidebarActive() {
+    return sideBar.classList.contains('active');
+}
+
+// Initiate a for loop starting with 0 and loop through galleryImg one at a time
 for (let i = 0; i < galleryImg.length; i++) {
-// listen for a click on an image while its looping through the Img array
-    galleryImg[i].addEventListener('click', function () {
-        // if a click is heard, change to display block
-        modal.style.display = 'block';
-        //put the clicked image into the modal = 'this' refers to the element that triggers the event. (The Img) - src is refering to the URL of Img
-        modalImg.src = this.src;
-    })
+    // Listen for a click on an image while looping through the Img array
+    galleryImg[i].addEventListener('click', function (event) {
+        // If the sidebar is active, close it and prevent the modal from opening
+        if (isSidebarActive()) {
+            sideBar.classList.remove('active');
+            event.stopPropagation();
+        } else {
+            // If the sidebar is not active, open the modal
+            modal.style.display = 'block';
+            modalImg.src = this.src;
+        }
+    });
 }
 
 // Get the <span> element that closes the modal
@@ -50,15 +80,3 @@ span.onclick = function() {
   modal.style.display = 'none';
   footerText.style.color = '#e1e0e0';
 }
-
-// Find the wrapper element
-const wrapper = document.querySelector('.wrapper');
-
-// Listen for clicks on the wrapper
-wrapper.addEventListener('click', function(event) {
-    // Check if the clicked element is not inside the sidebar
-    if (!event.target.closest('.sidebar') && sideBar.classList.contains('active')) {
-        // Close the sidebar by removing the 'active' class
-        sideBar.classList.remove('active');
-    }
-})
