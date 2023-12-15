@@ -17,5 +17,6 @@ Thank you.
 
 
 ----------------------------------------------------------------------
-15/12/23:   Added JS to close sidebar when user clicks on window
-            Fixed gallery and contact page where the heading and hamburger menu were not aligned
+15/12/23:   
+Added JS to close sidebar when user clicks on window
+Fixed gallery and contact page where the heading and hamburger menu were not aligned
