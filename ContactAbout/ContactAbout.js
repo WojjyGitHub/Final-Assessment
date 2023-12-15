@@ -23,14 +23,10 @@ xIconBtn.addEventListener('click', function (event) {
     sideBar.classList.toggle('active')
 })
 
-// Find the wrapper element
-const wrapper = document.querySelector('.wrapper');
-
-// Listen for clicks on the wrapper
-wrapper.addEventListener('click', function(event) {
-    // Check if the clicked element is not inside the sidebar
-    if (!event.target.closest('.sidebar') && sideBar.classList.contains('active')) {
-        // Close the sidebar by removing the 'active' class
+// Close sidebar when clicking outside
+window.addEventListener('click', function (event) {
+    // Check if the clicked element is not inside the sidebar or menu icon
+    if (!event.target.closest('.sidebar') && !event.target.closest('#menu-icon') && sideBar.classList.contains('active')) {
         sideBar.classList.remove('active');
     }
-})
+});
