@@ -60,14 +60,17 @@ function isSidebarActive() {
 for (let i = 0; i < galleryImg.length; i++) {
     // Listen for a click on an image while looping through the Img array
     galleryImg[i].addEventListener('click', function (event) {
+        // Check if teh window width is greater than 470px
+        if (window.innerWidth > 470) {
         // If the sidebar is active, close it and prevent the modal from opening
-        if (isSidebarActive()) {
-            sideBar.classList.remove('active');
-            event.stopPropagation();
-        } else {
-            // If the sidebar is not active, open the modal
-            modal.style.display = 'block';
-            modalImg.src = this.src;
+            if (isSidebarActive()) {
+                sideBar.classList.remove('active');
+                event.stopPropagation();
+            } else {
+                // If the sidebar is not active, open the modal
+                modal.style.display = 'block';
+                modalImg.src = this.src;
+            }
         }
     });
 }
