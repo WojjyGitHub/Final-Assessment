@@ -17,11 +17,11 @@ Thank you.
 
 15/12/23 
 - Added JS to close sidebar when user clicks on window
-- Fixed gallery and contact page where the heading and hamburger menu were not aligned
+- Fixed an issue where the heading and hamburger menu were not aligned (gallery and contact page) 
 - Justified sub-heading text in 470px mobile mode (contact page)
 - Centered heading in mobile mode (contact and gallery page)
 
 17/12/23
 - Modified brushstroke and explore text to better suit 470px mobile mode (landing page)
 - Reduced padding around art-page descriptions to better suit 470px mobile mode (landing page)
-- Added JS to the gallery page so that the modal only opens when the innerWidth of the page is > 470px
+- Added JS so that the modal only opens when the innerWidth of the page is > 470px (gallery page)
