@@ -37,6 +37,11 @@ document.addEventListener('click', function (event) {
 // Prevent closing sidebar when clicking on links inside the sidebar
 document.querySelector('.sidebar').addEventListener('click', function (event) {
     const isClickInsideLink = event.target.closest('a');
+
+    // Close the sidebar if the click is inside a link and the window width is 870px or lower
+    if (isClickInsideLink && window.innerWidth <= 870) {
+        sideBar.classList.remove('active');
+    }
     
     // Prevent closing the sidebar if the click is inside a link
     if (isClickInsideLink) {
@@ -60,7 +65,7 @@ function isSidebarActive() {
 for (let i = 0; i < galleryImg.length; i++) {
     // Listen for a click on an image while looping through the Img array
     galleryImg[i].addEventListener('click', function (event) {
-        // Check if teh window width is greater than 470px
+        // Check if the window width is greater than 470px
         if (window.innerWidth > 470) {
         // If the sidebar is active, close it and prevent the modal from opening
             if (isSidebarActive()) {
