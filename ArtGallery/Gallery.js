@@ -44,7 +44,7 @@ document.querySelector('.sidebar').addEventListener('click', function (event) {
     }
     
     // Prevent closing the sidebar if the click is inside a link
-    if (isClickInsideLink) {
+    else if (isClickInsideLink) {
         event.stopPropagation();
     }
 });
