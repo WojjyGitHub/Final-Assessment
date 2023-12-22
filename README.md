@@ -25,3 +25,6 @@ Thank you.
 - Modified brushstroke and explore text to better suit 470px mobile mode (landing page)
 - Reduced padding around art-page descriptions to better suit 470px mobile mode (landing page)
 - Added JS so that the modal only opens when the innerWidth of the page is > 470px (gallery page)
+
+22/12/23
+- Added JS so that the sidebar closes when a gallery section is selected (gallery page)
