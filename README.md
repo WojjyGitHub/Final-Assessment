@@ -34,3 +34,4 @@ Thank you.
 - Added meta descriptions (all pages)
 - Added missing 'alt' descriptions (landing page)
 - Changed the 'title' to better suit the page (all pages)
+- Added sitemap.xml
