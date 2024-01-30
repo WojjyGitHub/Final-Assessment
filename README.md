@@ -34,7 +34,7 @@ Thank you.
 - Added meta descriptions (all pages)
 - Added missing 'alt' descriptions (landing page)
 - Changed the 'title' to better suit the page (all pages)
-- Added sitemap.xml
+- Added sitemap.xml (root folder)
 
 31/01/24
 - Confirmed ownership with Google Search Console
