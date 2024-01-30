@@ -35,3 +35,6 @@ Thank you.
 - Added missing 'alt' descriptions (landing page)
 - Changed the 'title' to better suit the page (all pages)
 - Added sitemap.xml
+
+31/01/24
+- Confirmed ownership with Google Search Console
