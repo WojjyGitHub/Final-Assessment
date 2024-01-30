@@ -28,3 +28,6 @@ Thank you.
 
 22/12/23
 - Added JS so that the sidebar closes when a gallery section is selected (gallery page)
+
+30/01/24
+- Purchased a Domain name and configured address
