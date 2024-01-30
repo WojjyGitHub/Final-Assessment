@@ -32,3 +32,4 @@ Thank you.
 30/01/24
 - Purchased a Domain name and configured address
 - Added meta descriptions (all pages)
+- Added missing 'alt' descriptions (landing page)
