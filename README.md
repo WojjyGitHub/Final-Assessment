@@ -35,7 +35,7 @@ Thank you.
 - Confirmed ownership with Google Search Console
 
 31/01/24
-- Changed artist images from PNG to JPG to improve load times (main and gallery)
-- Added watermark to artist images to reduce the risk of copyright infringments (main and gallery)
+- Changed artist images files from PNG to JPG to improve load times (main and gallery)
+- Added a watermark to artist images to reduce the risk of any copyright infringments (main and gallery)
 - Added code for FAVICON icons via https://realfavicongenerator.net
-- Added some structured data to try and have google search display 'Heidixe Fine Art' instead on 'heidixefineart.com' (main page)
+- Added structured data to have the google search results display 'Heidixe Fine Art' instead on 'heidixefineart.com' (main page)
