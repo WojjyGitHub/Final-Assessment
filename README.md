@@ -35,6 +35,8 @@ Thank you.
 - Added missing 'alt' descriptions (landing page)
 - Changed the 'title' to better suit the page (all pages)
 - Added sitemap.xml (root folder)
+- Confirmed ownership with Google Search Console
 
 31/01/24
-- Confirmed ownership with Google Search Console
+- Changed artist images from PNG to JPG to improve load times (main and gallery)
+- Added watermark to artist images to reduce the risk of copyright infringments (main and gallery)
