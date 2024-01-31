@@ -38,3 +38,4 @@ Thank you.
 - Changed artist images from PNG to JPG to improve load times (main and gallery)
 - Added watermark to artist images to reduce the risk of copyright infringments (main and gallery)
 - Added code for FAVICON icons via https://realfavicongenerator.net
+- Added some structured data to try and have google search display 'Heidixe Fine Art' instead on 'heidixefineart.com'
