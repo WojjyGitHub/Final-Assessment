@@ -19,8 +19,8 @@ Thank you.
 - Centered heading in mobile mode (contact and gallery page)
 
 17/12/23
-- Modified brushstroke and explore text to better suit 470px mobile mode (landing page)
-- Reduced padding around art-page descriptions to better suit 470px mobile mode (landing page)
+- Modified brushstroke and explore text to better suit 470px mobile mode (main page)
+- Reduced padding around art-page descriptions to better suit 470px mobile mode (main page)
 - Added JS so that the modal only opens when the innerWidth of the page is > 470px (gallery page)
 
 22/12/23
@@ -29,7 +29,7 @@ Thank you.
 30/01/24
 - Purchased a Domain name and configured address
 - Added meta descriptions (all pages)
-- Added missing 'alt' descriptions (landing page)
+- Added missing 'alt' descriptions (main page)
 - Changed the 'title' to better suit the page (all pages)
 - Added sitemap.xml (root folder)
 - Confirmed ownership with Google Search Console
@@ -38,4 +38,4 @@ Thank you.
 - Changed artist images from PNG to JPG to improve load times (main and gallery)
 - Added watermark to artist images to reduce the risk of copyright infringments (main and gallery)
 - Added code for FAVICON icons via https://realfavicongenerator.net
-- Added some structured data to try and have google search display 'Heidixe Fine Art' instead on 'heidixefineart.com'
+- Added some structured data to try and have google search display 'Heidixe Fine Art' instead on 'heidixefineart.com' (main page)
