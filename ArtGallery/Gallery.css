@@ -201,7 +201,7 @@ nav li:nth-child(2) {
     place-items: center;
     gap: 25px;
     margin: 25px;
-    background: url(../ArtGallery/BackgroundImg.png);
+    background: url(../ArtGallery/BackgroundImg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 35px;
