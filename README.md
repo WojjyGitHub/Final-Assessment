@@ -42,3 +42,4 @@ Thank you.
 
   15/02/24
   - Fixed an incorrect link to #animals (contact page)
+  - Replaced link from /contact to #top (contact page)
