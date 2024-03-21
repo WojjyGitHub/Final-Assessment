@@ -43,6 +43,10 @@ Thank you.
 - Added code for FAVICON icons via https://realfavicongenerator.net
 - Added structured data to have the google search results display 'Heidixe Fine Art' instead on 'heidixefineart.com' (main page)
 
-  15/02/24
-  - Fixed an incorrect link to #animals (contact page)
-  - Replaced link from /contact to #top (contact page)
+15/02/24
+- Fixed an incorrect link to #animals (contact page)
+- Replaced link from /contact to #top (contact page)
+
+21/03/24
+- Added schema markup in the hopes that an alternate image will be displayed in google search results (HTML)
+- Created and resubmitted a new sitemap
