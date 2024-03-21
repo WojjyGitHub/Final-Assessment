@@ -11,6 +11,11 @@ I created this site after completing a 12-week intensive front end web developme
 
 Thank you.
 
+![Screenshot (47)](https://github.com/WojjyGitHub/Final-Assessment/assets/146066243/2eb73272-d960-4164-86e1-525c8bf502cc)
+![Screenshot (48)](https://github.com/WojjyGitHub/Final-Assessment/assets/146066243/1076e1c4-373c-4058-a1fa-d882c4025242)
+![Screenshot (49)](https://github.com/WojjyGitHub/Final-Assessment/assets/146066243/4ce8b6ab-5c29-4238-9df5-5ca41c9c7719)
+![Screenshot (50)](https://github.com/WojjyGitHub/Final-Assessment/assets/146066243/7709d0a6-092e-4845-83ab-cc31ca001051)
+
 
 15/12/23
 - Added JS to close sidebar when user clicks on window
